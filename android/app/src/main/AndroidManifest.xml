@@ -16,9 +16,8 @@
     <!-- Permissions for Bluetooth advertising (BLE) -->
     <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE"/>
 
-    <!-- Ensure the app can use Bluetooth in the background (for Android 12 and above) -->
-    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
-    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+   
+    
     <application
         android:label="blue_classic"
         android:name="${applicationName}"
