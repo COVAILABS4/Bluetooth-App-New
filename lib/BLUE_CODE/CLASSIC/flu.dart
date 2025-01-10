@@ -6,11 +6,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_blue_classic/flutter_blue_classic.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MyAppClassic());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MyAppClassic extends StatelessWidget {
+  const MyAppClassic({super.key});
 
   @override
   Widget build(BuildContext context) {

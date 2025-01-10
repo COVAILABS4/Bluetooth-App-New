@@ -7,13 +7,13 @@ void main() {
   runApp(
     ChangeNotifierProvider(
       create: (_) => BluetoothProvider(),
-      child: const MyApp(),
+      child: const MyAppBLE(),
     ),
   );
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class MyAppBLE extends StatelessWidget {
+  const MyAppBLE({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
